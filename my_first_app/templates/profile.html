@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .profile-card {
+            max-width: 400px;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .profile-info h2 {
+            margin-top: 0;
+        }
+
+        .profile-info p {
+            margin: 0;
+        }
+
+        .profile-bio {
+            margin-top: 1rem;
+        }
+
+        .profile-skills {
+            margin-top: 1rem;
+        }
+
+        .profile-skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .profile-skills li {
+            display: inline-block;
+            background-color: #f2f2f2;
+            padding: 0.5rem 1rem;
+            margin-right: 0.5rem;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>User Profile</h1>
+    </header>
+
+    <main>
+        <div class="profile-card">
+            <img src="profile_picture.jpg" alt="Profile Picture">
+            <div class="profile-info">
+                <h2>John Doe</h2>
+                <p>Email: john.doe@example.com</p>
+                <p>Location: New York, USA</p>
+            </div>
+            <div class="profile-bio">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ligula in dolor finibus
+                    fringilla.</p>
+            </div>
+            <div class="profile-skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

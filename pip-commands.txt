@@ -1,0 +1,16 @@
+1. to install the python package
+
+pip install python-package-name (Pillow, django, flask, pandas, numpy)
+
+
+2. to list the installed packages
+
+pip list
+
+
+3. to freeze the installed packages inside a venv  to a file
+
+pip freeze > requirements.txt
+
+4. to upgrade the installed pip version
+python -m pip install --upgrade pip
